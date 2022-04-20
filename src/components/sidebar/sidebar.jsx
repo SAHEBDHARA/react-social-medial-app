@@ -57,6 +57,42 @@ export default function sidebar() {
             <span className="sidebarListItemText">Courses</span>
            </li>
          </ul>
+         <button className="sidebarButton"> Show more</button>
+         <hr className="sidebarHr" />
+         <ul className="sidebarFriendlist">
+           <li className="sidebarFriend">
+             <img className="sidebarFriendImg" src="\accets\person\4.jpeg" alt="" />
+             <spam className="sidebarFriendName">Sunetra Maity</spam>
+           </li>
+           <li className="sidebarFriend">
+             <img className="sidebarFriendImg" src="\accets\person\2.jpeg" alt="" />
+             <spam className="sidebarFriendName">Sourish Mondal</spam>
+           </li>
+           <li className="sidebarFriend">
+             <img className="sidebarFriendImg" src="\accets\person\5.jpeg" alt="" />
+             <spam className="sidebarFriendName">Sneha Bar</spam>
+           </li>
+           <li className="sidebarFriend">
+             <img className="sidebarFriendImg" src="\accets\person\6.jpeg" alt="" />
+             <spam className="sidebarFriendName">Saikat Bar</spam>
+           </li>
+           <li className="sidebarFriend">
+             <img className="sidebarFriendImg" src="\accets\person\2.jpeg" alt="" />
+             <spam className="sidebarFriendName">Nimai Haldar</spam>
+           </li> 
+           <li className="sidebarFriend">
+             <img className="sidebarFriendImg" src="\accets\person\4.jpeg" alt="" />
+             <spam className="sidebarFriendName">jony kauko</spam>
+           </li>
+           <li className="sidebarFriend">
+             <img className="sidebarFriendImg" src="\accets\person\4.jpeg" alt="" />
+             <spam className="sidebarFriendName">Sunetra Maity</spam>
+           </li>
+           <li className="sidebarFriend">
+             <img className="sidebarFriendImg" src="\accets\person\4.jpeg" alt="" />
+             <spam className="sidebarFriendName">Sunetra Maity</spam>
+           </li>
+         </ul>
        </div>
     </div>
   )
