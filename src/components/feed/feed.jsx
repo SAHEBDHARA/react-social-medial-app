@@ -5,10 +5,9 @@ export default function Feed() {
   return (
     <div className="feed">
         <div className="feedWraper">
-        
+        <Share/>
         </div>
         </div>
   )
 }
-// go
-// this is the new app and new push for the github
+
