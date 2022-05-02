@@ -20,15 +20,15 @@ export default function share() {
               <span className="shareOptionText">Photo of Video</span>
             </div>
             <div className="shareOption">
-              <LocalOfferIcon htmlColor="#f3722c" className="shareIcons"/>
+              <LocalOfferIcon htmlColor="#be0aff" className="shareIcons"/>
               <span className="shareOptionText">Tag</span>
             </div>
             <div className="shareOption">
-              <LocationOnIcon htmlColor="#c9184a" className="shareIcons"/>
+              <LocationOnIcon htmlColor="#008000" className="shareIcons"/>
               <span className="shareOptionText">Location</span>
             </div>
             <div className="shareOption">
-              <EmojiEmotionsIcon htmlColor="#f9844a" className="shareIcons"/>
+              <EmojiEmotionsIcon htmlColor="#023e8a" className="shareIcons"/>
               <span className="shareOptionText">Feelings</span>
             </div>
 
