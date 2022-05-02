@@ -33,6 +33,7 @@ export default function share() {
             </div>
 
           </div>
+          <button className="buttonShare">Share</button>
 
         </div>
       </div>
