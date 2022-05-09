@@ -63,7 +63,7 @@ export const Users = [
     },
     {
       id: 2,
-      desc: "smill is the beging of love.",
+      desc: "smill is the begining of love.",
       photo: "https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       date: "15 mins ago",
       userId: 2,
