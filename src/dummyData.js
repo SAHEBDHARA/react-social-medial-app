@@ -1,53 +1,53 @@
 export const Users = [
     {
       id:1,
-      profilePicture: "assets/person/1.jpeg",
+      profilePicture: "https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       username: "Nimai Halder",
     },
     {
       id:2,
-      profilePicture: "assets/person/2.jpeg",
+      profilePicture: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
       username: "Sourish Mondal",
     },
     {
       id:3,
-      profilePicture: "assets/person/3.jpeg",
+      profilePicture: "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       username: "Momota bannerjie",
     },
     {
       id:4,
-      profilePicture: "assets/person/4.jpeg",
+      profilePicture: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       username: "Sunetra Maity",
     },
     {
       id:5,
-      profilePicture: "assets/person/5.jpeg",
+      profilePicture: "https://images.unsplash.com/photo-1615109398623-88346a601842?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       username: "Saikat Bar",
     },
     {
       id:6,
-      profilePicture: "assets/person/6.jpeg",
+      profilePicture: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z2lybHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       username: "Sneha Bar",
     },
     {
       id:7,
-      profilePicture: "assets/person/7.jpeg",
-      username: "Arindam Pradhan",
+      profilePicture: "https://images.unsplash.com/photo-1601288496920-b6154fe3626a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      username: "Shreya Bar",
     },
     {
       id:8,
-      profilePicture: "assets/person/8.jpeg",
+      profilePicture: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       username: "Kristen Thomas",
     },
     {
       id:9,
-      profilePicture: "assets/person/9.jpeg",
-      username: "Rani Das",
+      profilePicture: "https://images.unsplash.com/photo-1591084728795-1149f32d9866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      username: "Soujanya Goldar",
     },
     {
       id:10,
-      profilePicture: "assets/person/10.jpeg",
-      username: "Rimpa Dolui",
+      profilePicture: "https://images.unsplash.com/photo-1513207565459-d7f36bfa1222?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=389&q=80",
+      username: "Tripti Goldar",
     },
   ];
   
@@ -72,7 +72,7 @@ export const Users = [
     },
     {
       id: 3,
-      desc: "Every moment is a fresh beginning.",
+      desc: "Ma mati manush.",
       photo: "https://images.unsplash.com/photo-1439778615639-28529f7628bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       date: "1 hour ago",
       userId: 3,
@@ -81,6 +81,7 @@ export const Users = [
     },
     {
       id: 4,
+      desc: "Truth is beuty, beuty is truth",
       photo: "https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80",
       date: "4 hours ago",
       userId: 4,
@@ -131,6 +132,7 @@ export const Users = [
     },
     {
       id: 10,
+      desc:"In Loving Memory",
       photo: "https://images.unsplash.com/photo-1604854429029-4a80f1cce783?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       date: "1 week ago",
       userId: 10,
