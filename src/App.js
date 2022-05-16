@@ -8,4 +8,3 @@ function App() {
 }
 
 export default App;
-// this is the app.js
