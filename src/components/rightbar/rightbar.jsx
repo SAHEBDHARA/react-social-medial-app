@@ -17,6 +17,13 @@ export default function Rightbar() {
            {Users.map((u) => (
              <online key={u.id} user = {u} />
            )) } 
+            {/* <li className="rightbarFriend">
+              <div className="rightbarProfileImgContainer">
+                <img src={Users.profilePicture} alt="" className="rightbarProfileImg" />
+                <span className="rightbarOnline"></span>
+              </div>
+              <span className="rightbarUsername"> {Users.usernamae}</span>
+    </li> */}
           </ul>
         </div>
     </div>
