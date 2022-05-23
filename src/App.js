@@ -8,6 +8,5 @@ function App() {
 }
 
 export default App;
-// same as before 
-// noting important
+
 
