@@ -3,7 +3,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import {Users} from "../../dummyData"
 
 export default function Post({post}) {
-  console.log(post);
+  // console.log(post);
 
 
 
