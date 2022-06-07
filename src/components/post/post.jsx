@@ -40,6 +40,4 @@ export default function Post({post}) {
     </div>
   )
 }
-// so thsi sdf
-//sit
-//don't wnat to do the same thing in the world history and so on 
+// so ths
