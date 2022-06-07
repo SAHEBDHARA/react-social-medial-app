@@ -42,3 +42,4 @@ export default function Post({post}) {
 }
 // so thsi sdf
 //sit
+//don't wnat to do the same thing in the world history and so on 
