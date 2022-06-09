@@ -40,4 +40,4 @@ export default function Post({post}) {
     </div>
   )
 }
-// now  i an=
+// now  i
