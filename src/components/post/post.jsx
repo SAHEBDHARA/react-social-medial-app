@@ -40,4 +40,4 @@ export default function Post({post}) {
     </div>
   )
 }
-// now  i how 
+// now  i how fdg
