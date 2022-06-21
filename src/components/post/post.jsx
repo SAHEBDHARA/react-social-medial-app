@@ -41,3 +41,4 @@ export default function Post({post}) {
   )
 }
 // now  i how 
+//go to hell i am going to save it 
