@@ -42,3 +42,4 @@ export default function Post({post}) {
 }
 // now  i how 
 //go to hell i am going to save it 
+// for that reason i don't want to do the same thing
