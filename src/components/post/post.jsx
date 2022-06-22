@@ -40,6 +40,4 @@ export default function Post({post}) {
     </div>
   )
 }
-// now  i how 
-//go to hell i am going to save it 
-// for that reason i don't want to do the same thing
+
