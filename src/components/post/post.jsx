@@ -40,6 +40,4 @@ export default function Post({post}) {
     </div>
   )
 }
-// this is the new 
-// local password
-// the new code 
+
