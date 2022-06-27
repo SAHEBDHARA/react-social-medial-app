@@ -41,4 +41,4 @@ export default function Post({post}) {
   )
 }
 // this is it 
-
+// giting
