@@ -40,5 +40,4 @@ export default function Post({post}) {
     </div>
   )
 }
-// this is it 
-// giting
+
