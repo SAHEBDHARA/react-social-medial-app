@@ -40,5 +40,4 @@ export default function Post({post}) {
     </div>
   )
 }
-// this si the new list of the 
-// how do il
+//
