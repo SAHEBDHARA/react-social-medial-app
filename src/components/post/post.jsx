@@ -41,3 +41,4 @@ export default function Post({post}) {
   )
 }
 // this is the new lcoal compition
+// going
