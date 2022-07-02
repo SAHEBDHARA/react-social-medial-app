@@ -40,6 +40,4 @@ export default function Post({post}) {
     </div>
   )
 }
-// this is the new push for us
-// this might be the most expern
-// lnow
+
