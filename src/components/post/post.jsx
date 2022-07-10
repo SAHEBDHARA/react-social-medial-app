@@ -40,6 +40,5 @@ export default function Post({post}) {
     </div>
   )
 }
-// this is the jjenw 
-// this might be the 
+//
 
