@@ -41,4 +41,5 @@ export default function Post({post}) {
   )
 }
 // thsi si called the new notepad in the world 
+// I don't wnat you to do the same thing in the new and histo
 
