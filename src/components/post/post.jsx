@@ -40,5 +40,5 @@ export default function Post({post}) {
     </div>
   )
 }
-
+// thsi si called the new notepad in the world 
 
