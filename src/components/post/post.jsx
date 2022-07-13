@@ -40,7 +40,4 @@ export default function Post({post}) {
     </div>
   )
 }
-// this is not ot so closer to the hsit
-// it's a regular everyday nomore motherfucker
-// it's a regular everyday nomere motehrfucker
 
