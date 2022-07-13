@@ -40,6 +40,6 @@ export default function Post({post}) {
     </div>
   )
 }
-
+// this is not ot so closer to the hsit
 
 
