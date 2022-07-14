@@ -41,3 +41,4 @@ export default function Post({post}) {
   )
 }
 // this si the 
+// this 
