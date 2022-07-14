@@ -40,5 +40,3 @@ export default function Post({post}) {
     </div>
   )
 }
-// this si the 
-// this 
