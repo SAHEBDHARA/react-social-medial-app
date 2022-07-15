@@ -40,4 +40,4 @@ export default function Post({post}) {
     </div>
   )
 }
-// its been 45 year since i dievorce
+// its been 45 yea
