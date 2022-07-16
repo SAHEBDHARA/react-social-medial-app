@@ -40,3 +40,5 @@ export default function Post({post}) {
     </div>
   )
 }
+// this is the new and common man in the world hitory and so on of the mark
+// this is the 
