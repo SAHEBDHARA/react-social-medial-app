@@ -40,4 +40,3 @@ export default function Post({post}) {
     </div>
   )
 }
-// kthsi in the world cricket history
