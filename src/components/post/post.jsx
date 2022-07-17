@@ -40,5 +40,4 @@ export default function Post({post}) {
     </div>
   )
 }
-// kthsi 
-// thsi is not gonna be the best finisher in the world cricket history
+// kthsi in the world cricket history
