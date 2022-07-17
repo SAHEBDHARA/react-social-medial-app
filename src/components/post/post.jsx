@@ -40,3 +40,4 @@ export default function Post({post}) {
     </div>
   )
 }
+// kthsi 
