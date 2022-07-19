@@ -5,7 +5,7 @@ import {Users} from "../../dummyData"
 export default function Post({post}) {
   // console.log(post);
 
-  // s
+
 
 
 
