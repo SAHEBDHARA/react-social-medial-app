@@ -6,7 +6,7 @@ export default function Post({post}) {
   // console.log(post);
 
 // this 
-
+// the differnce between map and filter 
 
 
   return (
