@@ -41,3 +41,5 @@ export default function Post({post}) {
     </div>
   )
 }
+
+// don't do it for the first time when you visit in the zoo 
