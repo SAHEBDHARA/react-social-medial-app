@@ -42,5 +42,4 @@ export default function Post({post}) {
   )
 }
 
-// don't do it for the first time when you visit in the zoo 
-// and secondly you have to do the same thing in eh 
+
