@@ -27,6 +27,6 @@ export default function Feed() {
         </div>
   )
 }
-// no this is not the thing that we want 
+
 
 
