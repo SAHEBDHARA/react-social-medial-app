@@ -32,4 +32,4 @@ function App() {
 
 export default App;
 
-// not for dale
+// not for dale sd
