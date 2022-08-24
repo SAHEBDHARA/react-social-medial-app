@@ -32,5 +32,5 @@ function App() {
 
 export default App;
 
-// so we are going to get a ban from tcs
+
 
