@@ -103,4 +103,3 @@ export default function Rightbar({ profile }) {
     </div>
   );
 }
-// this is not gonna be happen, sorry!
