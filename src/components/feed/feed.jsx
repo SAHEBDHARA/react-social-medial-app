@@ -28,6 +28,6 @@ export default function Feed() {
   )
        }
 
-       // thsi is the ne 
+      
 
       
