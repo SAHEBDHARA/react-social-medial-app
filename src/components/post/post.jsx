@@ -13,7 +13,7 @@ export default function Post({post}) {
   const likeHandler =()=>{
     setLike(isLiked ? like-1 : like+1)
     setIsLiked(!isLiked)
-  } 
+  }  
 
 
   return (
