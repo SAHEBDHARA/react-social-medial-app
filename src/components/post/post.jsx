@@ -1,14 +1,27 @@
 import "./post.css"
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-import {Users} from "../../dummyData"
-import { useState } from "react";
+// import {Users} from "../../dummyData"
+import { useState, useEffect } from "react";
+import axios from "axios";
+import {format} from "timeago.js"
+import {Link } from "react-router-dom"
 
 export default function Post({post}) {
   
 
-  const [like,setLike] = useState(post.like)
+  const [like,setLike] = useState(post.likes.length)
   const [isLiked,setIsLiked] = useState(false)
+  const [user, setUser] = useState({})
   // const PF = process.env.REACT_APP_PUBLIC_FOLDER
+
+  useEffect(()=>{
+    const fetchUser = async () =>{
+      const res = await axios.get(`/users?userId=${post.userId}`)
+      setUser(res.data)
+    };
+    fetchUser()
+  },[post.userId]);
+
 
   const likeHandler =()=>{
     setLike(isLiked ? like-1 : like+1)
@@ -21,9 +34,15 @@ export default function Post({post}) {
         <div className="postWrapper">
             <div className="postTop">
                 <div className="postLeft">
-                  <img className="postProfileImg" src={Users.filter((u) => u.id === post.userId)[0].profilePicture} alt="" />
-                  <span className="postUsername">{Users.filter((u) => u.id === post.userId)[0].username}</span>
-                  <span className="postDate">{post.date}</span>
+                  <Link to={`profile/${user.username}`}>
+                  <img className="postProfileImg"
+                   src={user.profilePicture || "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png"}
+                    alt="" />
+                    </Link >
+                  <span className="postUsername">
+                    {user.username}
+                    </span>
+                  <span className="postDate">{format(post.createdAt)}</span>
                 </div>
                 <div className="postRight">
                   <MoreVertIcon/>
@@ -31,7 +50,7 @@ export default function Post({post}) {
             </div>
             <div className="postCenter">
               <span className="postTaxt">{post?.desc}</span>
-              <img className="postImg" src={post.photo} alt="" />
+              <img className="postImg" src={post.img || "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"} alt="" />
             </div>
             <div className="postBotton">
               <div className="postBottonLeft">
