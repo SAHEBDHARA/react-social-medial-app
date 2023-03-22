@@ -6,21 +6,21 @@ import Sidebar from "../../components/sidebar/sidebar"
 import Rightbar from "../../components/rightbar/rightbar"
 import { useState,useEffect } from 'react'
 import axios from 'axios'
+import {useParams} from "react-router-dom"
 
 
 export default function Profile() {
 
   const [user, setUser] = useState({})
+  const username = useParams().username;
+ 
   useEffect(()=>{
     const fetchUser = async () =>{
-      const res = await axios.get(`/users?username=saikat`)
-      console.log(res)
-      console.log(user.username)
-      console.log(user.desc)
+      const res = await axios.get(`/users?username=${username}`)
       setUser(res.data)
     };
     fetchUser()
-  },[]);
+  },[username]);
 
 
     return (
@@ -33,12 +33,12 @@ export default function Profile() {
               <div className="profileCover">
                 <img
                   className="profileCoverImg"
-                  src="https://images.unsplash.com/photo-1561242197-27f057ad344f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=378&q=80"
+                  src={user.coverPicture || "https://thumbs.dreamstime.com/b/picture-electrical-dummy-plastic-cover-where-switches-to-fix-future-fixed-over-place-once-there-no-need-184784585.jpg"}
                   alt=""
                 />
                 <img
                   className="profileUserImg"
-                  src="https://images.unsplash.com/photo-1569343285904-001a0ee57edc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+                  src={user.profilePicture || "https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg"}
                   alt=""
                 />
               </div>
@@ -48,8 +48,8 @@ export default function Profile() {
               </div>
             </div>
             <div className="profileRightBottom">
-              <Feed username="saikat"/>
-              <Rightbar profile/>
+              <Feed username={username}/>
+              <Rightbar user={user}/>
             </div>
           </div>
         </div>
