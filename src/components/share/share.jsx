@@ -56,7 +56,6 @@ export default function Share() {
 
           </div>
           <button className="buttonShare" type="submit">Share</button>
-
         </form>
       </div>
     </div>
